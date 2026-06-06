@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://medinest-t13z.onrender.com/api";
+const API = "https://SmartHealthHub-t13z.onrender.com/api";
 
 const getHeaders = () => {
   const token = localStorage.getItem("token");

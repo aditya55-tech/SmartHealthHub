@@ -123,7 +123,7 @@ export default function Payment({ cart, onSuccess, onClearCart }) {
         key: process.env.REACT_APP_RAZORPAY_KEY_ID || rpData.keyId,
         amount: rpData.amount,
         currency: rpData.currency,
-        name: "MediNest",
+        name: "SmartHealthHub",
         description: "Medicine Order Payment",
         order_id: rpData.orderId,
         prefill: { name: userName, email: userEmail, contact: userContact },

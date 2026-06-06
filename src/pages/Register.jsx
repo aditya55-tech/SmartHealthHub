@@ -58,13 +58,13 @@ export default function Register() {
 
         <div className="auth-brand">
           <Link to="/" className="auth-logo">
-            🏥 MediNest
+            🏥 SmartHealthHub
           </Link>
 
           <h1>Create Account</h1>
 
           <p>
-            Join thousands of customers who trust MediNest
+            Join thousands of customers who trust SmartHealthHub
           </p>
         </div>
 

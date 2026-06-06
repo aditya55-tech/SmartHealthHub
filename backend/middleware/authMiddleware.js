@@ -11,7 +11,7 @@ const protect = (req, res, next) => {
       token = req.headers.authorization.split(" ")[1];
 
       // Decode and verify token
-      const decoded = jwt.verify(token, process.env.JWT_SECRET || "medinest_secret_key");
+      const decoded = jwt.verify(token, process.env.JWT_SECRET || "SmartHealthHub_secret_key");
 
       // Attach user info to request object
       req.user = {

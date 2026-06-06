@@ -24,7 +24,7 @@ export default function Contact() {
             {[
               { icon:"📍", label:"Address", val:"123 Health Street, Bandra, Mumbai – 400051" },
               { icon:"📞", label:"Phone", val:"+91 98765 43210" },
-              { icon:"✉️", label:"Email", val:"support@medinest.in" },
+              { icon:"✉️", label:"Email", val:"support@SmartHealthHub.in" },
               { icon:"🕐", label:"Hours", val:"Mon–Sat: 9AM – 9PM" },
             ].map(c => (
               <div className="contact-info-row" key={c.label}>

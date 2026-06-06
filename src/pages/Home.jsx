@@ -47,7 +47,7 @@ export default function Home({ onAddToCart }) {
             <div className="hero-circle">
               <div className="hero-circle-inner">
                 <span>🏥</span>
-                <p>MediNest</p>
+                <p>SmartHealthHub</p>
               </div>
             </div>
             <div className="hero-pill hero-pill-1">💊 Pain Relief</div>

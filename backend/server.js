@@ -65,7 +65,7 @@ app.use(
 app.get("/api/health", (req, res) => {
   res.json({
     status: "ok",
-    message: "MediNest Backend Running",
+    message: "SmartHealthHub Backend Running",
   });
 });
 
@@ -263,7 +263,7 @@ app.delete("/api/cart/clear", protect, async (req, res) => {
 // DEFAULT ROUTE
 // ======================
 app.get("/", (req, res) => {
-  res.send("MediNest Backend API Running");
+  res.send("SmartHealthHub Backend API Running");
 });
 
 // ======================

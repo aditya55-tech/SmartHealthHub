@@ -200,7 +200,7 @@ export default function Cart({
 
             <div className="cart-security">
               🔒 Secure checkout powered
-              by MediNest
+              by SmartHealthHub
             </div>
           </div>
         </div>

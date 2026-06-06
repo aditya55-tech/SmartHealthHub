@@ -69,9 +69,9 @@ export default function Invoice() {
         <div className="invoice-box" id="invoice">
           <div className="invoice-header">
             <div className="invoice-brand">
-              <div className="invoice-logo">🏥 MediNest</div>
+              <div className="invoice-logo">🏥 SmartHealthHub</div>
               <p>123 Health Street, Bandra, Mumbai – 400050</p>
-              <p>support@medinest.in · +91 98765 43210</p>
+              <p>support@SmartHealthHub.in · +91 98765 43210</p>
               <p>GSTIN: 27AABCM1234Z1Z5</p>
             </div>
             <div className="invoice-meta">
@@ -134,9 +134,9 @@ export default function Invoice() {
 
           <div className="invoice-footer">
             <div className="invoice-note">
-              <strong>Note:</strong> This is a computer-generated invoice. No signature required. For queries, contact support@medinest.in
+              <strong>Note:</strong> This is a computer-generated invoice. No signature required. For queries, contact support@SmartHealthHub.in
             </div>
-            <div className="invoice-thanks">Thank you for choosing MediNest – Your Health, Our Priority 🏥</div>
+            <div className="invoice-thanks">Thank you for choosing SmartHealthHub – Your Health, Our Priority 🏥</div>
           </div>
         </div>
       </div>

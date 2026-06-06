@@ -50,7 +50,7 @@ export default function Login() {
 
         <div className="auth-brand">
           <Link to="/" className="auth-logo">
-            🏥 MediNest
+            🏥 SmartHealthHub
           </Link>
 
           <h1>Welcome back</h1>

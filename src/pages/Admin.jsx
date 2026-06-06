@@ -158,7 +158,7 @@ export default function Admin() {
     <div className="page-wrapper">
       <div className="admin-layout">
         <aside className="admin-sidebar">
-          <div className="admin-brand">🏥 MediNest<br /><small>Admin Panel</small></div>
+          <div className="admin-brand">🏥 SmartHealthHub<br /><small>Admin Panel</small></div>
           {tabs.map((t) => (
             <button
               key={t.key}

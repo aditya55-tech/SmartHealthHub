@@ -13,7 +13,7 @@ const generateToken = (user) => {
       email: user.email,
       isAdmin: user.isAdmin,
     },
-    process.env.JWT_SECRET || "medinest_secret_key",
+    process.env.JWT_SECRET || "SmartHealthHub_secret_key",
     { expiresIn: "7d" }
   );
 };

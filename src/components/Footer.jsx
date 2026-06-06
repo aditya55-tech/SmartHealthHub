@@ -44,14 +44,14 @@ export default function Footer() {
             <div className="contact-info">
               <p>📍 123 Health Street, Mumbai, India</p>
               <p>📞 +91 98765 43210</p>
-              <p>✉️ support@medinest.in</p>
+              <p>✉️ support@SmartHealthHub.in</p>
               <p>🕐 Mon–Sat: 9AM – 9PM</p>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© 2024 MediNest. All rights reserved.</p>
+          <p>© 2024 SmartHealthHub. All rights reserved.</p>
           <div className="footer-badges">
             <span>🔒 SSL Secured</span>
             <span>✅ CDSCO Approved</span>
