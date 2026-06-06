@@ -1,68 +1,80 @@
-<<<<<<< HEAD
-<!-- http://localhost:3000/ -->
-# 🏥 MediNest – Medicine E-Commerce Website
+# 🏥 SmartHealthHub
 
-A modern, responsive medicine e-commerce web application built with React.js.
+A full-stack healthcare management platform that enables users to manage appointments, medicines, authentication, and healthcare services through a modern web interface.
 
-## Tech Stack
-- React 18 (Functional Components + Hooks)
-- React Router v6
-- CSS (Custom variables, Flexbox, Grid)
-- No external UI library
+## ✨ Features
 
-## Pages
-| Page | Route |
-|------|-------|
-| Home | `/` |
-| Medicines | `/medicines` |
-| Medicine Detail | `/medicines/:id` |
-| Upload Prescription | `/prescription` |
-| Cart | `/cart` |
-| Login | `/login` |
-| Register | `/register` |
-| Contact | `/contact` |
-| Admin Dashboard | `/admin` |
+* 👨‍⚕️ Patient and Doctor Management
+* 📅 Appointment Booking System
+* 💊 Medicine Management
+* 🔐 Secure Authentication
+* 📱 Responsive User Interface
+* 📊 Healthcare Dashboard
+* 🗂️ Profile Management
+* ⚡ Full-Stack Architecture
 
-## Features
-- 🛒 Cart with quantity management and total calculation
-- 🔍 Medicine search and category filtering
-- 💊 12 sample medicines with full details
-- 📋 Prescription upload form with drag & drop
-- 📊 Admin dashboard with stats, order management, stock tracking
-- 🎨 Modern blue + white + green medical theme
-- 📱 Fully responsive (mobile + desktop)
-- ✅ Toast notifications
+## 🛠️ Tech Stack
 
-## Folder Structure
-```
-src/
-  components/
-    Navbar.jsx / Navbar.css
-    Footer.jsx / Footer.css
-    MedicineCard.jsx / MedicineCard.css
-  pages/
-    Home.jsx / Home.css
-    Medicines.jsx / Medicines.css
-    MedicineDetail.jsx / MedicineDetail.css
-    Cart.jsx / Cart.css
-    Prescription.jsx / Prescription.css
-    Login.jsx / Auth.css
-    Register.jsx
-    Contact.jsx / Contact.css
-    Admin.jsx / Admin.css
-  data/
-    medicines.js
-  styles/
-    global.css
-  App.js
-  index.js
-```
+### Frontend
 
-## Getting Started
-```bashgbbg
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Authentication
+
+* JWT Authentication
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/aditya55-tech/SmartHealthHub.git
+
+cd SmartHealthHub
+
 npm install
+
 npm start
 ```
-=======
-# whole-medinest
->>>>>>> 4afa4f001d3c745a547493f126d270a8106c6d8d
+
+## 📂 Project Structure
+
+```text
+SmartHealthHub/
+├── backend/
+├── public/
+├── src/
+├── package.json
+└── README.md
+```
+
+## 🎯 Future Enhancements
+
+* AI Symptom Checker
+* Doctor Search & Filtering
+* Online Consultation
+* Appointment History
+* Email Notifications
+* Admin Analytics Dashboard
+
+## 👨‍💻 Developer
+
+**Aditya Singh**
+
+* MERN Stack Developer
+* AI/ML Enthusiast
+* GitHub: https://github.com/aditya55-tech
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a star.
